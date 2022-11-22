@@ -1,0 +1,33 @@
+
+install angular : npm install -g @angular/cli
+install angular material : ng add @angular/material
+start app : ng serve
+
+json : 
+1 : npm install -g json-server
+2 : json-server --watch db.json
+create dialog componant: ng g c dialog
+create api servce : ng g s services/api
+
+
+-------------------
+
+get/post products in : api.services.ts
+
+add products func in : dialog.componant.ts
+
+fetch products in : app.componants.ts
+
+filter in : app componanats.ts
+
+display products in : app.componants.ts
+
+edit products in : app.componants.ts
+
+display data inthe edit prompt we add a module (MAT_DIALOG_DATA) and inject it in the constructor in : dialog.componanats
+
+to update/delete apicreated tani in : api.servce.ts 
+
+refresh after update .afterClosed().subscribe(val=>{...}) in : app.componants.ts
+
+delete methode in : app.componants.ts
